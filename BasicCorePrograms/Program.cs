@@ -43,7 +43,7 @@ namespace BasicCorePrograms
                         HarmonicSeries harmonicSeries = new HarmonicSeries();
                         harmonicSeries.Harmonic();
                         break;
-                        case 5:
+                    case 5:
                         Factors factors = new Factors();
                         factors.Factor();
                         break;
