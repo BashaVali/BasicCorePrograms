@@ -18,14 +18,15 @@ namespace BasicCorePrograms
                 Console.WriteLine("Select the option");
                 Console.WriteLine("1.FlipCoin" + "\n" +
                                   "2.LeapYear" + "\n" +
-                                  "3.Power Of 2"+ "\n" +
+                                  "3.Power Of 2" + "\n" +
                                   "4.HarmonicSeries" + "\n" +
                                   "5.Factors" + "\n" +
-                                  "6. QuotientAndRemainder"+"\n" +
-                                  "7.Swap2Numbers"+"\n" +
+                                  "6. QuotientAndRemainder" + "\n" +
+                                  "7.Swap2Numbers" + "\n" +
                                   "8.EvenorOdd"+"\n" +
                                   "9.VowelOrConsonant" + "\n" +
-                                  "10.Exit" + "\n");
+                                  "10.LargestNumber" + "\n"+ 
+                                  "11.Exit" + "\n");
                 int options = Convert.ToInt32(Console.ReadLine());
                 switch (options)
                 {
@@ -68,6 +69,10 @@ namespace BasicCorePrograms
                         vowelOrConsonant.VowelConsonant();
                         break;
                     case 10:
+                        LargestNumber largestNumber = new LargestNumber();
+                        largestNumber.LargeNumber();
+                        break;
+                    case 11:
                         flag = false;
                         break;
 
